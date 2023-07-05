@@ -39,7 +39,7 @@ public class StatsService {
 
     public int average(long[] sales) {
         return sum(sales) / sales.length;
-        }
+    }
 
 
     public int lowThanAverage(long[] sales) {
